@@ -45,7 +45,7 @@ function App() {
 
     const fetchData = () => {
 
-      fetch("http://127.0.0.1:5000/machines")
+      fetch("https://smart-industry-api-b3h8fhe9fnh5hjdx.eastasia-01.azurewebsites.net/machines")
         .then((response) => response.json())
         .then((data) => {
           setMachines(data);
